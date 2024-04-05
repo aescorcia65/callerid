@@ -8,8 +8,8 @@ import datetime
 
 now = datetime.datetime.now()
 CSV_FILE = "calls.csv"  # name of the CSV file to save the data to
-WEBHOOK_URL = "https://webhook.site/7d1bf192-e010-4a09-ba05-c7818885e550"  # URL of the webhook to send data to
-client_id = "TEST"
+WEBHOOK_URL = "https://api.sendsationaltext.com/webhook/callerid/"  # URL of the webhook to send data to
+client_id = "CL-46F5372D-50EA-480E-8DB3-EE6292F279C6"
 
 
 def sendtohook(file, url):
